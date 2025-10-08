@@ -68,8 +68,8 @@ public class TeamTest {
         t1.setName("A");
         t1.addMember("x");
         Team t2 = new Team();
-        t2.setName("A");
-        t2.addMember("y");
+        t2.setName("B");
+        t2.addMember("x");
         assert(!t1.equals(t2));
     }
 
